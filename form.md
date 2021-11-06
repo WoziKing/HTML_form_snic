@@ -174,7 +174,7 @@ http://210.47.163.202:80/snic/login.php
 https://www.so.com/s?ie=UTF-8&q=url  
 ### Something u should pay attention to.
 1. 空格会打断url   
-<a href='https://www.so.com/s ?ie=UTF-8&q=url'>\https://www.so.com/s ?ie=UTF-8&q=url</a>  
+<a href='https://www.so.com/s ?ie=UTF-8&q=url'>https://www.so.com/s ?ie=UTF-8&q=url</a>  
 可以使用 `%20` 来代替空格
 
 2. GET传递的内容会显示在[?query]内   
