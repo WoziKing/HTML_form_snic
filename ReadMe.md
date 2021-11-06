@@ -10,3 +10,4 @@
 > * work.html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作业示例
 > * work.php&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作业后台提交端（隐藏了数据库信息）
 > * work.png&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作业图示
+> * qrcode.png&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我的二维码

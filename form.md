@@ -222,3 +222,13 @@ http://live.syau.edu.cn/player.html?channel=cctv13hd
 3. 如果成功将表单内容传递到目标地址的话（页面会提示提交成功），请截图留念，并分析下面的一行神奇命令是什么
 
 *P.S. 图片大小须小于100MB，方程求解结果自行搜索确认，姓名学号如实填写*
+
+<br>
+<br>
+<br>
+ 
+## 本次资源二维码  
+<img src='./qrcode.png' style='width:300px;'>  
+
+### 作者：WoziKing
+##### 沈阳农业大学 大学生网络信息中心 网络运行部
