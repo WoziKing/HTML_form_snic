@@ -174,12 +174,12 @@ http://210.47.163.202:80/snic/login.php
 https://www.so.com/s?ie=UTF-8&q=url  
 ### Something u should pay attention to.
 1. 空格会打断url   
-<a href='https://www.so.com/s ?ie=UTF-8&q=url'>https://www.so.com/s ?ie=UTF-8&q=url</a>  
+<a href='https://www.so.com/s ?ie=UTF-8&q=url'>\https://www.so.com/s ?ie=UTF-8&q=url</a>  
 可以使用 `%20` 来代替空格
 
 2. GET传递的内容会显示在[?query]内   
 js或者php可以获取到这个参数，并将其作为重要变量  
-http://live.syau.edu.cn/player.html?channel=cctv3hd
+http://live.syau.edu.cn/player.html?channel=cctv3hd  
 http://live.syau.edu.cn/player.html?channel=cctv13hd
 
 3. 如果有需要的话，可以讲url中的参数进行加密  
