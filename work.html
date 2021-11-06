@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>校园网报修系统</title>
+    <link rel="stylesheet" href="./public/css/index.css">
+</head>
+
+<body>
+<div class="whole">
+
+    <!--顶部导航栏部分-->
+    <div class="navigate-top">
+        <div class="move-quadrel">
+        <a><div class="navigate-top-word">第四次作业</div></a>
+        </div>
+    </div>
+    <!--白色主体部分-->
+<div class="trunk">
+  <div style='position: relative;left:50px;top:40px;'>
+      <form action="http://210.47.163.202/snic/work.php" method="POST"  enctype="multipart/form-data">
+        <span>姓名：</span>
+        <input type='text' name='name'>
+        <br><br>
+
+        <span>学号：</span>
+        <input type='text' name='number'>
+        <br><br>
+
+        <span>年级：</span><br>
+        <input type='radio' name='grade' value='大一'><span>大一</span>
+        <input type='radio' name='grade' value='大二'><span>大二</span>
+        <input type='radio' name='grade' value='大三'><span>大三</span>
+        <input type='radio' name='grade' value='大四'><span>大四</span>
+        <br><br>
+
+        <span>下列水果中，你喜欢的有：</span><br>
+        <input type='checkbox' name='like[]' value='苹果'><span>苹果</span>
+        <input type='checkbox' name='like[]' value='梨'><span>梨</span>
+        <input type='checkbox' name='like[]' value='橘子'><span>橘子</span>
+        <input type='checkbox' name='like[]' value='香蕉'><span>香蕉</span>
+        <br><br>
+
+        <span>方程 abs(x)=3 的解有：</span><br>
+        <select size='3' name='x[]' multiple>
+          <option value='x=-4'>x=-4</option>
+          <option value='x=-3'>x=-3</option>
+          <option value='x=-2'>x=-2</option>
+          <option value='x=-1'>x=-1</option>
+          <option value='x=0'>x=0</option>
+          <option value='x=1'>x=1</option>
+          <option value='x=2'>x=2</option>
+          <option value='x=3'>x=3</option>
+          <option value='x=4'>x=4</option>
+        </select>
+        <br><br>
+
+        <span>随手上传一张图片吧</span><br>
+        <input type='file' name='img'>  
+        <br><br><br>
+
+        <input type='submit'>
+        <input type='reset'>
+      </form>
+  </div>
+</div>
+
+<!--底部声明-->
+<div class="bottom-declare">
+    <div class="bottom-declare-word-move">
+      <div  class="bottom-declare-word-one">
+        网页制作：大学生网络信息中心 姓名
+      </div>
+    </div>
+
+</div>
+
+</div>
+</div>
+</body>
+</html>
