@@ -1,0 +1,80 @@
+@media only screen and (min-width: 300px) and (max-width: 426px) {
+/*网页灰色背景*/
+/*去除网页自带内外边距*/
+
+
+/*顶部导航的部分*/   
+.navigate-top{
+    height: 90px;
+}
+
+/*顶部导航的文字部分*/
+.navigate-top-word{
+    font-size: 18px;
+}
+.navigate-top-word-under{
+    font-size: 14px;
+}
+.move-quadrel{
+    width:80%;
+    top:20px;
+}
+
+/*白色主体部分*/
+.trunk{
+    height: 760px;
+    width: 100%;
+}
+
+
+/*底部声明部分（最外层）*/
+.bottom-declare{
+    background-color: rgb(218, 217, 220);
+    height: 130px;
+    width: 100%;
+}
+
+/*底部声明内部文字的定位与大小*/
+.bottom-declare-word-one{
+    font-size: 14px;
+    top:28px;
+}
+.bottom-declare-word-two{
+    font-size: 14px;
+    top:40px;
+}
+.bottom-declare-word-move{
+    width:90%;
+    margin:0 auto;
+}
+
+.part-1{
+    width:100%;
+}
+
+.part-0{
+    width:80%;
+}
+}
+
+@media only screen and (min-width: 426px) and (max-width: 1025px) {
+/*顶部导航的部分*/   
+
+.move-quadrel{
+    width:80%;
+    top:20px;
+}
+
+/*白色主体部分*/
+.trunk{
+    width: 100%;
+}
+
+.part-1{
+    width:80%;
+}
+
+.part-0{
+    width:80%;
+}
+}

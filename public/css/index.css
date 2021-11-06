@@ -1,0 +1,64 @@
+.whole{
+    position: relative;
+}
+/*网页灰色背景*/
+/*去除网页自带内外边距*/
+body{
+    background-color: rgb(225, 228, 225);
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+}
+
+/*顶部导航的部分*/   
+.navigate-top{
+    background-color: rgb(113, 195, 219);
+    height: 100px;
+    width: 100%;
+    position:relative;
+}
+
+/*顶部导航的文字部分*/
+.navigate-top-word{
+    font-size: 35px;
+    font-weight:bold ;
+    color: rgb(253, 253, 253);
+}
+
+.move-quadrel{
+    width:62%;
+    margin:0 auto;
+    position: relative;
+    top:20px;
+}
+
+/*白色主体部分*/
+.trunk{
+    background-color: rgb(252, 252, 252);
+    min-height: 500px;
+    height: auto;
+    width: 62%;
+    margin:0 auto;
+}
+
+
+/*底部声明部分（最外层）*/
+.bottom-declare{
+    background-color: rgb(218, 217, 220);
+    height: 80px;
+    width: 100%;
+}
+
+/*底部声明内部文字的定位与大小*/
+.bottom-declare-word-one{
+    font-size: 16px;
+    position: relative;
+    top:30px;
+}
+.bottom-declare-word-move{
+    width:62%;
+    margin:0 auto;
+}
