@@ -65,8 +65,8 @@ enctype | 规定编码（传递方式为POST时） | string
 
 enctype="multipart/form-data"&nbsp;&nbsp;当上传文件时必选
 
-method="POST"&nbsp;&nbsp;ulr中没有传递过去的参数  
-method="GET"&nbsp;&nbsp;ulr中有传递过去的参数  
+method="POST"&nbsp;&nbsp;url中没有传递过去的参数  
+method="GET"&nbsp;&nbsp;url中有传递过去的参数  
 
 ### <a id="c4.2.2">4.2.2 输入（框）\<input></a>
 inline，搜集用户信息的主力标签。
@@ -126,7 +126,7 @@ rows | 显示区域行数 | int
 
 ***
 Have A Try :  
-<textarea name='ta' maxlength='6' rows='5'></textarea>
+<textarea name='ta' rows='5'></textarea>
 ***
 
 ### <a id="c4.2.4">4.2.4 选择框\<select>\<option>\</option>\</select></a>
@@ -149,8 +149,8 @@ selected | 表明选项是否选中 | \\
 
 ***
 Have A Try :  
-<select size='3' name='se'>
-    <option value='1'>1</option>
+<select size='3' name='se' multiple>
+    <option value='1' selected>01</option>
     <option value='2'>2</option>
     <option value='3'>3</option>
     <option value='1.1'>1.1</option>
@@ -182,7 +182,7 @@ js或者php可以获取到这个参数，并将其作为重要变量
 http://live.syau.edu.cn/player.html?channel=cctv3hd  
 http://live.syau.edu.cn/player.html?channel=cctv13hd
 
-3. 如果有需要的话，可以讲url中的参数进行加密  
+3. 如果有需要的话，可以将url中的参数进行加密  
   
   <br><br><br>
   
